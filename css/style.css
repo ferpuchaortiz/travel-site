@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #0a4d68;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 0.5em;
+  text-decoration: none;
+}
+
+section {
+  padding: 2em 1em;
+  text-align: center;
+}
+
+.hero {
+  background: url("../images/hero.jpg") center/cover no-repeat;
+  color: white;
+  padding: 6em 1em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 1em 0;
+}
+
+form {
+  max-width: 30em;
+  margin: auto;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 0.6em;
+  margin: 0.5em 0;
+  font-size: 1em;
+}
+
+button {
+  background: #0a4d68;
+  color: white;
+  border: none;
+}
+
+footer {
+  background: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+/* Responsive */
+@media (min-width: 48em) {
+  section {
+    padding: 3em 5em;
+  }
+}
